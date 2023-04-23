@@ -27,7 +27,12 @@ one_line_diary = Figlet(font = "slant")
 print(colored(one_line_diary.renderText("Your One Line Diary"), "yellow"))
 print("\33[7m-+°\33[0m" * 45)
 # Open file and allow it to be rewritten
-# greet the user
-# Ask the user to enter any response
+with open("mylife.text", "w") as mylife_file:
+# Greet the user and Ask the user to enter any response
+    keep_going = True
+    while keep_going:
+      insert_line = input("How was your day today? What are your realizations? ")
+      mylife_file.write(insert_line + '\n')
+      print(insert_line)
 # Close the file
 # Close program
