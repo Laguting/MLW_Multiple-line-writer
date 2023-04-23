@@ -39,7 +39,7 @@ with open("mylife.text", "w") as mylife_file:
 # Ask the user for the continuation
       question_usr = input("\n\33[36m\33[3m  ^•ﻌ•^ฅ♡   Are there any more realizations for today? Enter 'Y' for yes and 'N' for no: \33[0m")
       if question_usr.upper() == "N":
-                print(" \n\n \33[31mYour one line realizations i snow recorded to the file.     ૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა  \33[0m\n")
+                print(" \n\n \33[31mYour one line realizations is now recorded to the file.     ૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა  \33[0m\n")
                 print("\33[7m-+°\33[0m" * 45)
                 keep_going = False                
 # Close the file
