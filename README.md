@@ -24,5 +24,8 @@ https://user-images.githubusercontent.com/129570700/233850013-fbd091f4-ac05-4166
 > python MLW
 
 # INSTALLATIONS
+- **This program used two installations namely Pyfiglet, Termcolor, Datetime, and Tqdm. Install it by typing the following in the terminal.**
+>pip install pyfiglet, termcolor, tqdm
+
 # CREDITS
 ## CONTACTS
