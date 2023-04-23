@@ -18,9 +18,8 @@ for i in tqdm (range (100), desc="Loading...\U0001F973"):
     time.sleep(0.05)
     pass
 print("\n\n")
-print("\33[31mThank you for your patience!\33[0m\n")
+print("\33[31mThank you for your patience!˶^•ﻌ•^˵ \33[0m\n")
 print("\33[7m-+°\33[0m" * 45)
-
 # Open file and allow it to be rewritten
 # Your One line Diary
 # greet the user
