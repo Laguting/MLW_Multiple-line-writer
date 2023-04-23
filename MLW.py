@@ -18,10 +18,15 @@ for i in tqdm (range (100), desc="Loading...\U0001F973"):
     time.sleep(0.05)
     pass
 print("\n\n")
-print("\33[31mThank you for your patience!˶^•ﻌ•^˵ \33[0m\n")
+print("\33[31m\33[1mThank you for your patience!˶^•ﻌ•^˵ \33[0m\n")
+print("\33[7m-+°\33[0m" * 45)
+
+# Your One line Diary
+print("\n✧ ✧ ✧ ૮ • ﻌ • აฅ HI ✧ ✧ ✧\n")
+one_line_diary = Figlet(font = "slant")
+print(colored(one_line_diary.renderText("Your One Line Diary"), "yellow"))
 print("\33[7m-+°\33[0m" * 45)
 # Open file and allow it to be rewritten
-# Your One line Diary
 # greet the user
 # Ask the user to enter any response
 # Close the file
