@@ -35,21 +35,19 @@ with open("mylife.text", "w") as mylife_file:
     keep_going = True
     while keep_going:
       insert_line = input("\n\n\33[32m Today is " + str(date_now) + " How was your day today? What are your realizations? ｡:ﾟ૮ ˶ˆ ﻌ ˆ˶ ა ﾟ:｡ " ":\33[0m")
-      mylife_file.write(insert_line + '\n')
+      mylife_file.write(str(date_now) + ": " + insert_line + '\n')
 # Ask the user for the continuation
       question_usr = input("\n\33[36m\33[3m  ^•ﻌ•^ฅ♡   Are there any more realizations for today? Enter 'Y' for yes and 'N' for no: \33[0m")
       if question_usr.upper() == "N":
                 print(" \n\n \33[31mYour one line realizations i snow recorded to the file.     ૮₍ ˶ᵔ ᵕ ᵔ˶ ₎ა  \33[0m\n")
+                print("\33[7m-+°\33[0m" * 45)
                 keep_going = False                
 # Close the file
     mylife_file.close()
 # Close program
-print("\n\n")
-from tqdm import tqdm 
-import time
-for i in tqdm (range (100), desc="Loading...\U0001F973"):
-    time.sleep(0.05)
-    pass
-print("\n\n")
-print("\33[31m\33[1mThank you for your patience!˶^•ﻌ•^˵ \33[0m\n")
+clo_sing = Figlet(font = "bubble")
+print(colored(clo_sing.renderText("Thank you for availing our service!"), "magenta")) 
 print("\33[7m-+°\33[0m" * 45)
+closing = Figlet(font = "isometric3")
+print(colored(closing.renderText("Closing..."), "white"))
+print("\U0001F47E" * 45)
