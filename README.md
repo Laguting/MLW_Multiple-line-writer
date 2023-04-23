@@ -10,9 +10,11 @@ https://user-images.githubusercontent.com/129570700/233850013-fbd091f4-ac05-4166
 ## How to run IDE?
 1. Copy the code to your preferred IDE.
 2. Create a text file and leave it blank.
-3. 
-4.
-5.
+3. Install the pyfiglet, termcolor, and tqdm for the features it has. 
+4. Run the program
+
+*Sample Picture*
+![P-3](https://user-images.githubusercontent.com/129570700/233852050-f626cd9c-1206-4bbf-a160-099fc4894b22.PNG)
 
 ## How to run in git bash?
 # INSTALLATIONS
